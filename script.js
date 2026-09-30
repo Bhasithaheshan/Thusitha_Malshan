@@ -54,15 +54,15 @@ const journeysData = {
     badge: "Tranquil Wetlands",
     location: "📍 Sri Jayawardenepura Kotte, Sri Lanka • Wetland Park",
     photos: [
-      { src: "./assets/images/Beddagana/1.jpeg", caption: "Wetland Boardwalk • Sun-dappled wooden path winding through the marsh" },
-      { src: "./assets/images/Beddagana/2.jpeg", caption: "Waterway Reflections • Lush green tree canopies mirroring on the water" },
-      { src: "./assets/images/Beddagana/3.jpeg", caption: "Still Lakescape • Peaceful morning across the Kotte wetlands" },
-      { src: "./assets/images/Beddagana/4.jpeg", caption: "Bird Sanctuary • Protected wetland habitats and reed fields" },
-      { src: "./assets/images/Beddagana/5.jpeg", caption: "Canopy Trail • Shaded nature boardwalk illuminated by morning light" },
-      { src: "./assets/images/Beddagana/6.jpeg", caption: "Water Pathways • Serene canals tucked inside the bustling capital" },
-      { src: "./assets/images/Beddagana/7.jpeg", caption: "Tropical Flora • Lush ferns and native wetland vegetation" },
-      { src: "./assets/images/Beddagana/8.jpeg", caption: "Golden Afternoon • Gentle warm light across aquatic vegetation" },
-      { src: "./assets/images/Beddagana/9.jpeg", caption: "Nature's Mirror • Tranquil waters capturing cloud reflections" }
+      { src: "./assets/images/beddagana/1.jpeg", caption: "Wetland Boardwalk • Sun-dappled wooden path winding through the marsh" },
+      { src: "./assets/images/beddagana/2.jpeg", caption: "Waterway Reflections • Lush green tree canopies mirroring on the water" },
+      { src: "./assets/images/beddagana/3.jpeg", caption: "Still Lakescape • Peaceful morning across the Kotte wetlands" },
+      { src: "./assets/images/beddagana/4.jpeg", caption: "Bird Sanctuary • Protected wetland habitats and reed fields" },
+      { src: "./assets/images/beddagana/5.jpeg", caption: "Canopy Trail • Shaded nature boardwalk illuminated by morning light" },
+      { src: "./assets/images/beddagana/6.jpeg", caption: "Water Pathways • Serene canals tucked inside the bustling capital" },
+      { src: "./assets/images/beddagana/7.jpeg", caption: "Tropical Flora • Lush ferns and native wetland vegetation" },
+      { src: "./assets/images/beddagana/8.jpeg", caption: "Golden Afternoon • Gentle warm light across aquatic vegetation" },
+      { src: "./assets/images/beddagana/9.jpeg", caption: "Nature's Mirror • Tranquil waters capturing cloud reflections" }
     ]
   },
   rawana_ella: {
@@ -70,7 +70,7 @@ const journeysData = {
     badge: "Wild Cascade",
     location: "📍 Ella, Sri Lanka • Thundering Mountain Waterfall",
     photos: [
-      { src: "./assets/images/Rawana_Ella/1.jpeg", caption: "Rawana Falls • Majestic mountain waters cascading down rugged rock cliffs" }
+      { src: "./assets/images/rawana_ella/1.jpeg", caption: "Rawana Falls • Majestic mountain waters cascading down rugged rock cliffs" }
     ]
   },
   thalpe_beach: {
@@ -78,7 +78,7 @@ const journeysData = {
     badge: "Southern Coast",
     location: "📍 Galle, Sri Lanka • Coral Rock Pools",
     photos: [
-      { src: "./assets/images/Thalpe_Beach/1.jpeg", caption: "Thalpe Rock Pools • Unique historical rock cut pools in the Indian Ocean" }
+      { src: "./assets/images/thalpe_beach/1.jpeg", caption: "Thalpe Rock Pools • Unique historical rock cut pools in the Indian Ocean" }
     ]
   },
   yakdessagala: {
@@ -86,7 +86,7 @@ const journeysData = {
     badge: "Rocky Fortress",
     location: "📍 Kurunegala, Sri Lanka • Ancient Rock Fortress",
     photos: [
-      { src: "./assets/images/Yakdessagala/1.jpeg", caption: "Yakdessagala Summit • High rocky precipice overlooking valley villages" }
+      { src: "./assets/images/yakdessagala/1.jpeg", caption: "Yakdessagala Summit • High rocky precipice overlooking valley villages" }
     ]
   },
   hulangala: {
@@ -94,7 +94,7 @@ const journeysData = {
     badge: "Windy Ridge",
     location: "📍 Matale, Sri Lanka • Highland Viewpoint",
     photos: [
-      { src: "./assets/images/Hulangala/1.jpeg", caption: "Hulangala Viewpoint • High mountain wind gap over tea-carpeted slopes" }
+      { src: "./assets/images/hulangala/1.jpeg", caption: "Hulangala Viewpoint • High mountain wind gap over tea-carpeted slopes" }
     ]
   },
   ginipetti_palama: {
@@ -102,7 +102,7 @@ const journeysData = {
     badge: "Historic Crossing",
     location: "📍 Dolosbage, Sri Lanka • Matchbox Bridge",
     photos: [
-      { src: "./assets/images/Ginipetti_Palama/1.jpeg", caption: "Ginipetti Palama • Historic narrow crossing bridge over mountain streams" }
+      { src: "./assets/images/ginipetti_palama/1.jpeg", caption: "Ginipetti Palama • Historic narrow crossing bridge over mountain streams" }
     ]
   }
 };
