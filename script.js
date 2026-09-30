@@ -10,16 +10,16 @@ const journeysData = {
     badge: "Featured Expedition",
     location: "📍 Dolosbage Mountain Range, Sri Lanka • 1,506m Peak",
     photos: [
-      { src: "images/kabaragala/1.jpeg", caption: "Summit Ridge Camp • Tent set up amidst rolling morning mists" },
-      { src: "images/kabaragala/2.jpeg", caption: "Through The Pines • Looking out toward distant blue horizons" },
-      { src: "images/kabaragala/3.jpeg", caption: "Forest Sanctuary • Camping fellowship settled in towering pine trees" },
-      { src: "images/kabaragala/4.jpeg", caption: "Above The Clouds • Welcoming dawn with open arms atop the cliff" },
-      { src: "images/kabaragala/5.jpeg", caption: "Golden Hour Edge • Sea of fog glowing under the morning sun" },
-      { src: "images/kabaragala/6.jpeg", caption: "Morning Radiance • Silhouetted pines facing the brilliant sunrise" },
-      { src: "images/kabaragala/7.jpeg", caption: "Dawn Vista • Tent perched high over endless valley clouds" },
-      { src: "images/kabaragala/8.jpeg", caption: "Emerald Wilderness • Overlooking deep tropical slopes and valleys" },
-      { src: "images/kabaragala/9.jpeg", caption: "Solitary Reflection • Watching the morning sun ascend over the peaks" },
-      { src: "images/kabaragala/10.jpeg", caption: "Highland Tea Trails • Rolling tea plantations under clear skies" }
+      { src: "./assets/images/kabaragala/1.jpeg", caption: "Summit Ridge Camp • Tent set up amidst rolling morning mists" },
+      { src: "./assets/images/kabaragala/2.jpeg", caption: "Through The Pines • Looking out toward distant blue horizons" },
+      { src: "./assets/images/kabaragala/3.jpeg", caption: "Forest Sanctuary • Camping fellowship settled in towering pine trees" },
+      { src: "./assets/images/kabaragala/4.jpeg", caption: "Above The Clouds • Welcoming dawn with open arms atop the cliff" },
+      { src: "./assets/images/kabaragala/5.jpeg", caption: "Golden Hour Edge • Sea of fog glowing under the morning sun" },
+      { src: "./assets/images/kabaragala/6.jpeg", caption: "Morning Radiance • Silhouetted pines facing the brilliant sunrise" },
+      { src: "./assets/images/kabaragala/7.jpeg", caption: "Dawn Vista • Tent perched high over endless valley clouds" },
+      { src: "./assets/images/kabaragala/8.jpeg", caption: "Emerald Wilderness • Overlooking deep tropical slopes and valleys" },
+      { src: "./assets/images/kabaragala/9.jpeg", caption: "Solitary Reflection • Watching the morning sun ascend over the peaks" },
+      { src: "./assets/images/kabaragala/10.jpeg", caption: "Highland Tea Trails • Rolling tea plantations under clear skies" }
     ]
   },
   dolukanda: {
@@ -27,13 +27,13 @@ const journeysData = {
     badge: "Sacred Peak",
     location: "📍 Kurunegala, Sri Lanka • Legendary Medicinal Forest",
     photos: [
-      { src: "images/dolukanda/1.jpeg", caption: "Ridge Feast • Delicious campsite meal cooked on the rocky ridge" },
-      { src: "images/dolukanda/2.jpeg", caption: "Ancient Forest Canopy • Trekking through sacred healing woods" },
-      { src: "images/dolukanda/3.jpeg", caption: "North Western Plains • Sweeping views over Kurunegala from the summit" },
-      { src: "images/dolukanda/4.jpeg", caption: "Monolithic Cliffs • Gigantic rock formations lining the mountain path" },
-      { src: "images/dolukanda/5.jpeg", caption: "Steep Ascent • Climbing along the rugged trails to the upper plateau" },
-      { src: "images/dolukanda/6.jpeg", caption: "Forest Shadows • Golden sunbeams cutting through medicinal trees" },
-      { src: "images/dolukanda/7.jpeg", caption: "High Horizons • Expansive green wilderness seen from above" }
+      { src: "./assets/images/dolukanda/1.jpeg", caption: "Ridge Feast • Delicious campsite meal cooked on the rocky ridge" },
+      { src: "./assets/images/dolukanda/2.jpeg", caption: "Ancient Forest Canopy • Trekking through sacred healing woods" },
+      { src: "./assets/images/dolukanda/3.jpeg", caption: "North Western Plains • Sweeping views over Kurunegala from the summit" },
+      { src: "./assets/images/dolukanda/4.jpeg", caption: "Monolithic Cliffs • Gigantic rock formations lining the mountain path" },
+      { src: "./assets/images/dolukanda/5.jpeg", caption: "Steep Ascent • Climbing along the rugged trails to the upper plateau" },
+      { src: "./assets/images/dolukanda/6.jpeg", caption: "Forest Shadows • Golden sunbeams cutting through medicinal trees" },
+      { src: "./assets/images/dolukanda/7.jpeg", caption: "High Horizons • Expansive green wilderness seen from above" }
     ]
   },
   pathpokuna: {
@@ -41,12 +41,12 @@ const journeysData = {
     badge: "Hidden Oasis",
     location: "📍 Natural Forest Trail, Sri Lanka • Sacred Stone Pools",
     photos: [
-      { src: "images/pathpokuna/1.jpeg", caption: "Plateau Camp • Setting camp on high stone cliffs facing the sunrise" },
-      { src: "images/pathpokuna/2.jpeg", caption: "Ancient Stone Pond • Natural water basin carved by nature and time" },
-      { src: "images/pathpokuna/3.jpeg", caption: "Forest Trails • Quiet hiking pathway through untouched wilderness" },
-      { src: "images/pathpokuna/4.jpeg", caption: "Rock Pathways • Giant stone boulders along the mountain ridge" },
-      { src: "images/pathpokuna/5.jpeg", caption: "Crystal Reflections • Calm, undisturbed waters in the forest pond" },
-      { src: "images/pathpokuna/6.jpeg", caption: "Horizon Vista • Endless mountain silhouettes and morning clouds" }
+      { src: "./assets/images/pathpokuna/1.jpeg", caption: "Plateau Camp • Setting camp on high stone cliffs facing the sunrise" },
+      { src: "./assets/images/pathpokuna/2.jpeg", caption: "Ancient Stone Pond • Natural water basin carved by nature and time" },
+      { src: "./assets/images/pathpokuna/3.jpeg", caption: "Forest Trails • Quiet hiking pathway through untouched wilderness" },
+      { src: "./assets/images/pathpokuna/4.jpeg", caption: "Rock Pathways • Giant stone boulders along the mountain ridge" },
+      { src: "./assets/images/pathpokuna/5.jpeg", caption: "Crystal Reflections • Calm, undisturbed waters in the forest pond" },
+      { src: "./assets/images/pathpokuna/6.jpeg", caption: "Horizon Vista • Endless mountain silhouettes and morning clouds" }
     ]
   },
   beddagana: {
@@ -54,15 +54,15 @@ const journeysData = {
     badge: "Tranquil Wetlands",
     location: "📍 Sri Jayawardenepura Kotte, Sri Lanka • Wetland Park",
     photos: [
-      { src: "images/beddagana/1.jpeg", caption: "Wetland Boardwalk • Sun-dappled wooden path winding through the marsh" },
-      { src: "images/beddagana/2.jpeg", caption: "Waterway Reflections • Lush green tree canopies mirroring on the water" },
-      { src: "images/beddagana/3.jpeg", caption: "Still Lakescape • Peaceful morning across the Kotte wetlands" },
-      { src: "images/beddagana/4.jpeg", caption: "Bird Sanctuary • Protected wetland habitats and reed fields" },
-      { src: "images/beddagana/5.jpeg", caption: "Canopy Trail • Shaded nature boardwalk illuminated by morning light" },
-      { src: "images/beddagana/6.jpeg", caption: "Water Pathways • Serene canals tucked inside the bustling capital" },
-      { src: "images/beddagana/7.jpeg", caption: "Tropical Flora • Lush ferns and native wetland vegetation" },
-      { src: "images/beddagana/8.jpeg", caption: "Golden Afternoon • Gentle warm light across aquatic vegetation" },
-      { src: "images/beddagana/9.jpeg", caption: "Nature's Mirror • Tranquil waters capturing cloud reflections" }
+      { src: "./assets/images/Beddagana/1.jpeg", caption: "Wetland Boardwalk • Sun-dappled wooden path winding through the marsh" },
+      { src: "./assets/images/Beddagana/2.jpeg", caption: "Waterway Reflections • Lush green tree canopies mirroring on the water" },
+      { src: "./assets/images/Beddagana/3.jpeg", caption: "Still Lakescape • Peaceful morning across the Kotte wetlands" },
+      { src: "./assets/images/Beddagana/4.jpeg", caption: "Bird Sanctuary • Protected wetland habitats and reed fields" },
+      { src: "./assets/images/Beddagana/5.jpeg", caption: "Canopy Trail • Shaded nature boardwalk illuminated by morning light" },
+      { src: "./assets/images/Beddagana/6.jpeg", caption: "Water Pathways • Serene canals tucked inside the bustling capital" },
+      { src: "./assets/images/Beddagana/7.jpeg", caption: "Tropical Flora • Lush ferns and native wetland vegetation" },
+      { src: "./assets/images/Beddagana/8.jpeg", caption: "Golden Afternoon • Gentle warm light across aquatic vegetation" },
+      { src: "./assets/images/Beddagana/9.jpeg", caption: "Nature's Mirror • Tranquil waters capturing cloud reflections" }
     ]
   },
   rawana_ella: {
@@ -70,7 +70,7 @@ const journeysData = {
     badge: "Wild Cascade",
     location: "📍 Ella, Sri Lanka • Thundering Mountain Waterfall",
     photos: [
-      { src: "images/rawana_ella/1.jpeg", caption: "Rawana Falls • Majestic mountain waters cascading down rugged rock cliffs" }
+      { src: "./assets/images/Rawana_Ella/1.jpeg", caption: "Rawana Falls • Majestic mountain waters cascading down rugged rock cliffs" }
     ]
   },
   thalpe_beach: {
@@ -78,7 +78,7 @@ const journeysData = {
     badge: "Southern Coast",
     location: "📍 Galle, Sri Lanka • Coral Rock Pools",
     photos: [
-      { src: "images/thalpe_beach/1.jpeg", caption: "Thalpe Rock Pools • Unique historical rock cut pools in the Indian Ocean" }
+      { src: "./assets/images/Thalpe_Beach/1.jpeg", caption: "Thalpe Rock Pools • Unique historical rock cut pools in the Indian Ocean" }
     ]
   },
   yakdessagala: {
@@ -86,7 +86,7 @@ const journeysData = {
     badge: "Rocky Fortress",
     location: "📍 Kurunegala, Sri Lanka • Ancient Rock Fortress",
     photos: [
-      { src: "images/yakdessagala/1.jpeg", caption: "Yakdessagala Summit • High rocky precipice overlooking valley villages" }
+      { src: "./assets/images/Yakdessagala/1.jpeg", caption: "Yakdessagala Summit • High rocky precipice overlooking valley villages" }
     ]
   },
   hulangala: {
@@ -94,7 +94,7 @@ const journeysData = {
     badge: "Windy Ridge",
     location: "📍 Matale, Sri Lanka • Highland Viewpoint",
     photos: [
-      { src: "images/hulangala/1.jpeg", caption: "Hulangala Viewpoint • High mountain wind gap over tea-carpeted slopes" }
+      { src: "./assets/images/Hulangala/1.jpeg", caption: "Hulangala Viewpoint • High mountain wind gap over tea-carpeted slopes" }
     ]
   },
   ginipetti_palama: {
@@ -102,7 +102,7 @@ const journeysData = {
     badge: "Historic Crossing",
     location: "📍 Dolosbage, Sri Lanka • Matchbox Bridge",
     photos: [
-      { src: "images/ginipetti_palama/1.jpeg", caption: "Ginipetti Palama • Historic narrow crossing bridge over mountain streams" }
+      { src: "./assets/images/Ginipetti_Palama/1.jpeg", caption: "Ginipetti Palama • Historic narrow crossing bridge over mountain streams" }
     ]
   }
 };
