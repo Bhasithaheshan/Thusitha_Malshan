@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thusiya 👣 | Thusitha Malshan - Traveler • Explorer • Storyteller</title>
+  <meta name="description" content="Chasing forests, mountains and quiet roads. Explore the journeys and moments captured by Thusitha Malshan (Thusiya 👣).">
+  <meta name="theme-color" content="#0c1712">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thusiya 👣 | Thusitha Malshan - Traveler • Explorer • Storyteller">
+  <meta property="og:description" content="Chasing forests, mountains and quiet roads. Explore the journeys and travel stories across Sri Lanka.">
+  <meta property="og:image" content="images/photo1.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏔️</text></svg>">
+  
+  <!-- Google Fonts: Brand Signature (Leckerli One), Editorial Serif (Playfair Display), Modern UI (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <!-- Handwritten Signature Brand Logo -->
+      <a href="#" class="brand-logo" aria-label="Thusiya - Travel Portfolio">
+        <span class="signature-brand">Thusiya</span>
+        <span class="brand-footprint" aria-hidden="true">👣</span>
+        <img src="images/sl_flag.svg" alt="Sri Lanka Flag" class="brand-flag-icon">
+      </a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <!-- Mobile Drawer Signature Brand -->
+        <div class="mobile-drawer-brand">
+          <span class="signature-brand">Thusiya</span>
+          <span class="brand-footprint" aria-hidden="true">👣</span>
+          <img src="images/sl_flag.svg" alt="Sri Lanka Flag" class="brand-flag-icon">
+        </div>
+        <a href="#journeys" class="nav-link">Journeys</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="hero">
+    <!-- Full-Width Cinematic Background Video -->
+    <div class="hero-video-wrapper" aria-hidden="true">
+      <video class="hero-bg-video" id="heroBgVideo" autoplay muted loop playsinline poster="images/photo1.jpg" preload="auto">
+        <source src="hero.mp4" type="video/mp4">
+        <!-- Fallback image if video fails to render -->
+        <img src="images/photo1.jpg" alt="Thusitha Malshan travel landscape" class="hero-fallback-img">
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+
+    <!-- Ambient Glowing Orb -->
+    <div class="hero-orb" aria-hidden="true"></div>
+
+    <!-- Fireflies / Star Embers Container -->
+    <div class="fireflies-container" id="fireflies" aria-hidden="true"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <!-- Tag with Signature Brand Mark & Eyebrow -->
+      <div class="hero-brand-tag">
+        <div class="hero-signature-mark">
+          <span class="signature-brand-hero">Thusiya</span>
+          <span class="brand-footprint" aria-hidden="true">👣</span>
+          <img src="images/sl_flag.svg" alt="Sri Lanka Flag" class="hero-flag-badge">
+        </div>
+        <span class="hero-eyebrow-sep" aria-hidden="true">•</span>
+        <span class="hero-eyebrow">TRAVELER • EXPLORER • STORYTELLER</span>
+      </div>
+
+      <!-- Formal Full Name in Normal Website Typography -->
+      <h1 class="hero-title">Thusitha<br>Malshan</h1>
+      <p class="hero-description">
+        "Chasing forests, mountains and quiet roads. Capturing the places I visit and the moments worth remembering."
+      </p>
+      <div class="hero-actions">
+        <a href="#journeys" class="btn-primary">Explore My Journey</a>
+      </div>
+    </div>
+
+    <!-- Mountain Hill Wave Layers (Matching mockup) -->
+    <div class="hero-waves" aria-hidden="true">
+      <svg class="wave-svg" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <!-- Back hill layer -->
+        <path class="wave-back" d="M0,130 C240,60 520,160 820,95 C1120,30 1310,120 1440,105 L1440,220 L0,220 Z"></path>
+        <!-- Mid hill layer -->
+        <path class="wave-mid" d="M0,155 C320,110 600,195 980,125 C1220,70 1360,140 1440,130 L1440,220 L0,220 Z"></path>
+        <!-- Front hill layer (seamlessly joins page background) -->
+        <path class="wave-front" d="M0,175 C360,150 720,205 1100,155 C1260,135 1370,165 1440,160 L1440,220 L0,220 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-container">
+
+    <!-- ================= JOURNEYS SECTION ================= -->
+    <section class="section-block" id="journeys">
+      <div class="section-header">
+        <h2 class="section-title">Journeys</h2>
+        <p class="section-subtitle">Places I've travelled • Click any card to explore photos</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="journey-category-tabs" role="tablist" aria-label="Filter journeys by category">
+        <button class="cat-pill active" data-filter="all" role="tab" aria-selected="true">All Journeys (9)</button>
+        <button class="cat-pill" data-filter="peaks" role="tab" aria-selected="false">Mountain Peaks (4)</button>
+        <button class="cat-pill" data-filter="trails" role="tab" aria-selected="false">Forests & Trails (2)</button>
+        <button class="cat-pill" data-filter="water" role="tab" aria-selected="false">Wetlands & Coasts (3)</button>
+      </div>
+
+      <!-- Journeys Grid -->
+      <div class="journeys-grid" id="journeysGrid">
+        <!-- 1. Kabaragala (10 Photos) - Peaks -->
+        <article class="journey-card featured" data-destination="kabaragala" data-category="peaks" role="button" tabindex="0" aria-label="View Kabaragala photos">
+          <div class="card-image-wrap">
+            <img src="images/kabaragala/1.jpeg" alt="Kabaragala mountain peak camping tent" class="card-img" loading="lazy">
+            <span class="journey-badge">Featured Expedition</span>
+            <span class="journey-photo-pill">📷 10 Photos</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore 10 Photos ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Kabaragala</h3>
+            <p class="journey-card-subtitle">Where mist and serenity meet</p>
+            <div class="journey-meta">
+              <span>📍 Dolosbage, Sri Lanka</span>
+              <span>⛰️ 1,506m Peak</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 2. Dolukanda (7 Photos) - Peaks -->
+        <article class="journey-card" data-destination="dolukanda" data-category="peaks" role="button" tabindex="0" aria-label="View Dolukanda photos">
+          <div class="card-image-wrap">
+            <img src="images/dolukanda/1.jpeg" alt="Dolukanda healing mountain" class="card-img" loading="lazy">
+            <span class="journey-badge">Sacred Peak</span>
+            <span class="journey-photo-pill">📷 7 Photos</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore 7 Photos ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Dolukanda</h3>
+            <p class="journey-card-subtitle">Ancient legend of medicinal forests</p>
+            <div class="journey-meta">
+              <span>📍 Kurunegala, Sri Lanka</span>
+              <span>🌿 Herb Sanctuary</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 3. Pathpokuna (6 Photos) - Trails -->
+        <article class="journey-card" data-destination="pathpokuna" data-category="trails" role="button" tabindex="0" aria-label="View Pathpokuna photos">
+          <div class="card-image-wrap">
+            <img src="images/pathpokuna/1.jpeg" alt="Pathpokuna stone pools" class="card-img" loading="lazy">
+            <span class="journey-badge">Hidden Oasis</span>
+            <span class="journey-photo-pill">📷 6 Photos</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore 6 Photos ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Pathpokuna</h3>
+            <p class="journey-card-subtitle">Quiet stone ponds in wilderness</p>
+            <div class="journey-meta">
+              <span>📍 Natural Forest Trail</span>
+              <span>💧 Sacred Pools</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 4. Beddagana (9 Photos) - Water -->
+        <article class="journey-card" data-destination="beddagana" data-category="water" role="button" tabindex="0" aria-label="View Beddagana photos">
+          <div class="card-image-wrap">
+            <img src="images/beddagana/1.jpeg" alt="Beddagana Wetland Park" class="card-img" loading="lazy">
+            <span class="journey-badge">Tranquil Wetlands</span>
+            <span class="journey-photo-pill">📷 9 Photos</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore 9 Photos ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Beddagana</h3>
+            <p class="journey-card-subtitle">Sun-dappled paths & wetlands</p>
+            <div class="journey-meta">
+              <span>📍 Sri Jayawardenepura Kotte</span>
+              <span>🌾 Nature Walk</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 5. Rawana Ella (1 Photo) - Water -->
+        <article class="journey-card" data-destination="rawana_ella" data-category="water" role="button" tabindex="0" aria-label="View Rawana Ella photos">
+          <div class="card-image-wrap">
+            <img src="images/rawana_ella/1.jpeg" alt="Rawana Ella waterfall" class="card-img" loading="lazy">
+            <span class="journey-badge">Wild Cascade</span>
+            <span class="journey-photo-pill">📷 1 Photo</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore Photo ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Rawana Ella</h3>
+            <p class="journey-card-subtitle">Thundering waterfall through Ella gap</p>
+            <div class="journey-meta">
+              <span>📍 Ella, Badulla</span>
+              <span>🌊 Waterfall</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 6. Thalpe Beach (1 Photo) - Water -->
+        <article class="journey-card" data-destination="thalpe_beach" data-category="water" role="button" tabindex="0" aria-label="View Thalpe Beach photos">
+          <div class="card-image-wrap">
+            <img src="images/thalpe_beach/1.jpeg" alt="Thalpe Beach coral pools" class="card-img" loading="lazy">
+            <span class="journey-badge">Southern Coast</span>
+            <span class="journey-photo-pill">📷 1 Photo</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore Photo ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Thalpe Beach</h3>
+            <p class="journey-card-subtitle">Historic natural coral rock pools</p>
+            <div class="journey-meta">
+              <span>📍 Thalpe, Galle</span>
+              <span>🌊 Ocean Reef</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 7. Yakdessagala (1 Photo) - Peaks -->
+        <article class="journey-card" data-destination="yakdessagala" data-category="peaks" role="button" tabindex="0" aria-label="View Yakdessagala photos">
+          <div class="card-image-wrap">
+            <img src="images/yakdessagala/1.jpeg" alt="Yakdessagala rock mountain" class="card-img" loading="lazy">
+            <span class="journey-badge">Rocky Fortress</span>
+            <span class="journey-photo-pill">📷 1 Photo</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore Photo ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Yakdessagala</h3>
+            <p class="journey-card-subtitle">Ancient legend & rugged mountain hike</p>
+            <div class="journey-meta">
+              <span>📍 Kurunegala, Sri Lanka</span>
+              <span>⛰️ Fortress Peak</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 8. Hulangala (1 Photo) - Peaks -->
+        <article class="journey-card" data-destination="hulangala" data-category="peaks" role="button" tabindex="0" aria-label="View Hulangala photos">
+          <div class="card-image-wrap">
+            <img src="images/hulangala/1.jpeg" alt="Hulangala windy peak" class="card-img" loading="lazy">
+            <span class="journey-badge">Windy Ridge</span>
+            <span class="journey-photo-pill">📷 1 Photo</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore Photo ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Hulangala</h3>
+            <p class="journey-card-subtitle">Sweeping mountain breezes & tea valley views</p>
+            <div class="journey-meta">
+              <span>📍 Matale, Sri Lanka</span>
+              <span>🍃 Viewpoint</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+
+        <!-- 9. Ginipetti Palama (1 Photo) - Trails -->
+        <article class="journey-card" data-destination="ginipetti_palama" data-category="trails" role="button" tabindex="0" aria-label="View Ginipetti Palama photos">
+          <div class="card-image-wrap">
+            <img src="images/ginipetti_palama/1.jpeg" alt="Ginipetti Palama bridge" class="card-img" loading="lazy">
+            <span class="journey-badge">Historic Crossing</span>
+            <span class="journey-photo-pill">📷 1 Photo</span>
+            <div class="card-hover-overlay">
+              <span class="hover-view-text">Explore Photo ↗</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="journey-card-title">Ginipetti Palama</h3>
+            <p class="journey-card-subtitle">Historic Matchbox bridge in lush wilderness</p>
+            <div class="journey-meta">
+              <span>📍 Dolosbage, Sri Lanka</span>
+              <span>🌉 Mountain River</span>
+            </div>
+            <div class="card-click-hint">Click to view full photo album →</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= LET'S CONNECT SECTION ================= -->
+    <section class="section-block contact-section" id="contact">
+      <!-- Section Header with Live Status Indicator -->
+      <div class="contact-header">
+        <div class="contact-status-badge">
+          <span class="status-beacon" aria-hidden="true">
+            <span class="beacon-pulse"></span>
+            <span class="beacon-dot"></span>
+          </span>
+          <span>Open for Expeditions & Collaborations</span>
+        </div>
+        <h2 class="contact-title">Let's connect &amp; <em>wander</em></h2>
+        <p class="contact-subtitle">
+          Have an expedition in mind, curious about a trail in Sri Lanka, or want to talk mountain photography? Reach out through direct channels or follow along the journey.
+        </p>
+      </div>
+
+      <!-- Bento-style Contact Hub Grid -->
+      <div class="connect-hub">
+        <!-- Primary Direct Channels (Facebook & Email) -->
+        <div class="connect-primary-grid">
+          <!-- Facebook Profile Featured Card -->
+          <div class="contact-channel-card facebook-card">
+            <div class="card-ambient-glow fb-glow" aria-hidden="true"></div>
+            <div class="channel-card-top">
+              <div class="fb-profile-avatar-wrap">
+                <img src="images/thusitha_profile.jpg" alt="Thusitha Malshan" class="fb-profile-img">
+                <span class="fb-badge-overlay" aria-label="Facebook Verified Creator">
+                  <svg viewBox="0 0 24 24" class="fb-badge-svg" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                </span>
+              </div>
+              <span class="channel-badge fb-badge">🌐 3.7K Followers</span>
+            </div>
+            
+            <div class="channel-card-body">
+              <span class="channel-label">Official Facebook Profile</span>
+              <h3 class="channel-value">Thusitha Malshan</h3>
+              <p class="channel-desc">Traveler 🍃 • Digital Creator • Expeditions, raw road stories &amp; Sri Lankan community updates.</p>
+            </div>
+
+            <div class="channel-card-actions">
+              <a href="http://web.facebook.com/thusitha.malshan.75" target="_blank" rel="noopener noreferrer" class="channel-btn channel-btn-fb">
+                <span>View Facebook Profile</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <button class="channel-btn channel-btn-ghost copy-btn" data-copy="http://web.facebook.com/thusitha.malshan.75" data-label="Facebook profile link" aria-label="Copy Facebook profile link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy Link</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Email Card -->
+          <div class="contact-channel-card email-card">
+            <div class="card-ambient-glow" aria-hidden="true"></div>
+            <div class="channel-card-top">
+              <div class="channel-icon-wrap email-icon-wrap">
+                <svg viewBox="0 0 24 24" class="channel-svg" fill="currentColor">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </div>
+              <span class="channel-badge email-badge">📬 Collaboration</span>
+            </div>
+            
+            <div class="channel-card-body">
+              <span class="channel-label">Official Inquiries</span>
+              <h3 class="channel-value email-value-text">Malshanthusitha@icloud.com</h3>
+              <p class="channel-desc">For photography projects, brand stories, gear inquiries &amp; collaborations.</p>
+            </div>
+
+            <div class="channel-card-actions">
+              <a href="mailto:Malshanthusitha@icloud.com" class="channel-btn channel-btn-email">
+                <span>Send Email</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </a>
+              <button class="channel-btn channel-btn-ghost copy-btn" data-copy="Malshanthusitha@icloud.com" data-label="Email address" aria-label="Copy email address">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Channels Launchpad -->
+        <div class="social-launchpad">
+          <div class="social-launchpad-header">
+            <div class="launchpad-title-wrap">
+              <span class="launchpad-eyebrow">Explore Content &amp; Chat</span>
+              <h4 class="launchpad-title">Follow The Journey Online</h4>
+            </div>
+            <p class="launchpad-desc">WhatsApp quick chats, raw photo moments, and adventure clips from the trails.</p>
+          </div>
+
+          <div class="social-cards-grid">
+            <!-- WhatsApp Quick Chat -->
+            <a href="https://wa.me/qr/26562OA7MDWFH1" target="_blank" rel="noopener noreferrer" class="social-card social-wa" aria-label="Chat on WhatsApp">
+              <div class="social-card-inner">
+                <div class="social-icon-box wa-box">
+                  <svg viewBox="0 0 24 24" class="social-svg" fill="currentColor">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.24-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.11-.23-.17-.48-.3"/>
+                  </svg>
+                </div>
+                <div class="social-info">
+                  <span class="social-name">WhatsApp</span>
+                  <span class="social-tag">Direct Chat &amp; Message</span>
+                </div>
+                <span class="social-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/malshanthusitha?stkn=MWNoc2UzM2dxMmU3Yg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-card social-ig" aria-label="Follow Thusitha on Instagram">
+              <div class="social-card-inner">
+                <div class="social-icon-box ig-box">
+                  <svg viewBox="0 0 24 24" class="social-svg" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  </svg>
+                </div>
+                <div class="social-info">
+                  <span class="social-name">Instagram</span>
+                  <span class="social-tag">@malshanthusitha</span>
+                </div>
+                <span class="social-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@thusithamalshan0?_r=1&amp;_t=ZS-99y69b2WZS1" target="_blank" rel="noopener noreferrer" class="social-card social-tt" aria-label="Follow Thusitha on TikTok">
+              <div class="social-card-inner">
+                <div class="social-icon-box tt-box">
+                  <svg viewBox="0 0 24 24" class="social-svg" fill="currentColor">
+                    <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-1.01-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                  </svg>
+                </div>
+                <div class="social-info">
+                  <span class="social-name">TikTok</span>
+                  <span class="social-tag">@thusithamalshan0</span>
+                </div>
+                <span class="social-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Field Base Location Banner -->
+        <div class="connect-field-base">
+          <div class="field-base-item">
+            <span class="field-base-icon">📍</span>
+            <span>Home Base: <strong>Sri Lanka</strong> <img src="images/sl_flag.svg" alt="Sri Lanka" class="field-base-flag"></span>
+          </div>
+          <div class="field-base-sep" aria-hidden="true">•</div>
+          <div class="field-base-item">
+            <span class="field-base-icon">⛰️</span>
+            <span>Focus: <strong>Highland Trails, Peaks &amp; Hidden Waters</strong></span>
+          </div>
+          <div class="field-base-sep" aria-hidden="true">•</div>
+          <div class="field-base-item">
+            <span class="field-base-icon">👣</span>
+            <span>Always packing for the next sunrise</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <!-- Signature Brand Mark in Footer -->
+    <div class="footer-brand-wrap">
+      <span class="signature-brand-footer">Thusiya</span>
+      <span class="footer-footprint" aria-hidden="true">👣</span>
+      <img src="images/sl_flag.svg" alt="Sri Lanka Flag" class="footer-flag-icon">
+    </div>
+    <p class="copyright-text">
+      © <span id="currentYear">2026</span> Thusitha Malshan. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- ================= FLOATING BACK TO TOP BUTTON ================= -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ================= JOURNEY PHOTOS VIEWER MODAL ================= -->
+  <div class="journey-modal" id="journeyModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="journey-modal-backdrop" id="journeyModalBackdrop"></div>
+    <div class="journey-modal-dialog">
+      <!-- Modal Header -->
+      <div class="journey-modal-header">
+        <div class="modal-title-group">
+          <span class="modal-badge" id="modalBadge">Expedition</span>
+          <h3 class="modal-journey-title" id="modalJourneyTitle">Kabaragala</h3>
+          <p class="modal-journey-location" id="modalJourneyLocation">📍 Dolosbage, Sri Lanka</p>
+        </div>
+        <div class="modal-header-actions">
+          <div class="modal-keyboard-hints" aria-hidden="true">
+            <span><kbd>←</kbd> <kbd>→</kbd> Navigate</span>
+            <span><kbd>ESC</kbd> Close</span>
+          </div>
+          <span class="modal-counter-badge" id="modalCounterBadge">1 / 10</span>
+          <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close photo viewer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Photo Stage -->
+      <div class="journey-stage-wrap">
+        <button class="stage-nav-btn prev" id="modalPrevBtn" aria-label="Previous photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="stage-image-container">
+          <img src="" alt="" class="stage-img" id="modalMainImg">
+          <div class="stage-caption-box" id="modalCaptionBox">
+            <p class="stage-caption-text" id="modalCaptionText"></p>
+          </div>
+        </div>
+
+        <button class="stage-nav-btn next" id="modalNextBtn" aria-label="Next photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Thumbnail Strip -->
+      <div class="journey-thumbs-wrap">
+        <div class="journey-thumbs-strip" id="modalThumbsStrip" aria-label="Photo thumbnails">
+          <!-- Dynamically populated by script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast" role="alert" aria-live="polite">
+    <span class="toast-message" id="toastMsg">Copied!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
